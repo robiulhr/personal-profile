@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-logo{
+    margin-left: auto;
+}
+.nav-logo li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.input-group{
+    width: 250px;
+    margin: 15px 0px 0px 30px;
+}
+.navbar-brand{
+    position: absolute;
+    left: 40%;
+    top: 10px;
+}
+.header{
+    background-color: #f1f1ff;
+    margin-bottom: 100px;
+}
+.navbar-toggler{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    padding: 7px;
+    transition: none;
+    
+}
+
+
+
+
+
+
+
+.banner-img{
+    margin: 80px 115px;
+    width: 60%;
+}
+.banner-img img{
+    width: 100%;
+    margin-bottom: -100px;
+}
+.banner{
+    position: relative;
+}
+
+.banner-title{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+}
+.banner-title h1{
+    background: rgba(0,0,0,0.75);
+    color: white;
+    padding: 5px 20px 10px 70px;
+    margin-bottom: 10px;
+}
+.banner-title h4{
+     background: rgba(0,0,0,0.75);
+    color: white;
+    padding: 5px 20px 10px 40px;
+}
+
+
+
+
+
+
+
+
+
+.fashion-trend{
+    margin-top: 230px;
+    margin-bottom: 50px;
+}
+.fashion-trend-title{
+
+    background-color: #fff;
+    box-shadow:0px 4px 6px 0px rgb(0 0 50 / 50%);
+    width: 600px;
+    margin: 20px auto 90px;
+    position: relative;
+}
+.fashion-trend-title{
+       padding: 50px 50px; 
+}
+.fashion-trend-title::after{
+    content: '';
+    width: 30%;
+    height: 70%;
+    background-color: pink;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+    
+}
+.fashion-trend-title::before{
+    content: '';
+    width: 30%;
+    height: 70%;
+    background-color: pink;
+    position: absolute;
+    top: 65px;
+    left: 445px;
+    z-index: -1;
+    
+}
+.trending{
+}
+.trending-img{
+    width: 80%;
+    margin: 0px auto;
+    position: relative;   
+}
+.trending-img img{
+    width: 100%;
+    margin: 0px auto;
+}
+.trending-img button{
+    position: absolute;
+    left: 35%;
+    bottom: 0;
+    padding: 7px 30px;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 1;
+}
+.trending-img:hover.trending-img button{
+    opacity: 1;
+    position: absolute;
+    left: 35%;
+    bottom: 45%;
+    
+}
+.trending-img::after{
+    content: '';
+    height: 0%;
+    width: 100%;
+    margin: 0px auto;
+    background: rgba(0,0,50,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.trending-img:hover.trending-img::after{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+.fashion-exclusive{
+    margin: 100px 0px;
+    padding: 30px 0px;
+    background-image: url(../image/purple-flower-with-blue-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.fashion-exclusive-img{
+    width: 35%;
+    position: absolute;
+    top: 32%;
+    left: 6%;
+}
+.fashion-exclusive-img img{
+    width: 100%;
+}
+.fashion-exclusive-title{
+    width: 30%;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    background-color: #F1F1FF;
+}
+.fashion-exclusive-title h1{
+    text-align: center;
+    padding: 30px 30px 10px 30px;
+    text-transform: uppercase;
+}
+.fashion-exclusive-title p{
+    text-align: center;
+    padding: 10px 30px 20px 30px; 
+}
+
+
+
+
+
+
+
+
+
+.our-fashion-brands{
+    width: 700px;
+    margin: 250px auto 100px;
+    position: relative;
+    transition: 1s;
+}
+.our-fashion-brands h1{
+    padding: 50px 30px;
+    background-color: white;
+    box-shadow:0px 4px 6px 0px rgb(0 0 50 / 50%);
+    text-align: center;
+}
+.our-fashion-brands::after{
+    content: '';
+    width: 30%;
+    height: 70%;
+    background-color: pink;
+    position: absolute;
+    top: -20;
+    left: -20;
+    z-index: -1;
+}
+.our-fashion-brands::before{
+    content: '';
+    width: 30%;
+    height: 70%;
+    background-color: pink;
+    position: absolute;
+    top: 70;
+    left: 510;
+    z-index: -1;
+ 
+}
+.our-fashion-brands-products{
+    margin: 100px 10px 50px 10px;
+    width: 80%;
+}
+.our-fashion-brands-products:hover.our-fashion-brands-products img
+{
+     box-shadow:4px 3px 15px 4px rgb(0 0 50 / 50%);
+     transition: 0.5s;
+}
+.our-fashion-brands-products img{
+    width: 100%;
+    border-radius: 100%;
+}
+.our-fashion-brands-products h4{
+    padding: 20px 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: #f1f1ff;
+}
+.copyright{
+    padding: 50px 100px 10px 150px;
+}
+.footer-icon{
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.footer-icon i{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:991px){
+    .nav-logo{margin-left: -40px;}
+    
+    .input-group{margin: 15px 0px 0px 0px;}
+    
+
+}
